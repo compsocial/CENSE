@@ -1,0 +1,25 @@
+{
+	"manifest_version": 2,
+	"name": "Weibo Censorship Homophone Suggestions",
+	"description": "This extension will provide homophone suggestions of censored keywords on Sina Weibo.",
+	"version": "1.0",
+
+	"background": {
+		"persistent": false,
+		"page": "background.html"
+	},
+
+	"content_scripts": [{
+		"js": ["js/jquery.min.js", "js/jquery.textarea-highlighter.js", "js/jquery-ui.min.js", "contentscript.js"],
+		"css": ["css/contentcss.css", "css/jquery-ui.min.css"],
+		"matches": ["http://weibo.com/*", "https://weibo.com/*", "http://*.weibo.com/*", "https://*.weibo.com/*"]
+	}],
+
+	"web_accessible_resources": ["img/green_light.png", "img/red_light.png", "img/red_expand.png", "img/loading.gif", "modal.html"],
+
+	"permissions": [
+		"activeTab",
+		"https://*/",
+		"http://*/"
+	]
+}

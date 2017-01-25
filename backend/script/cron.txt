@@ -1,0 +1,5 @@
+MAILTO=anurag.s.prasad@gmail.com
+* * * * * /usr/bin/python /mnt/storage/anurag6/homophone_dictionary/script/PrimaryScript_ScrapeWeibo.py echo “Weibo scrape Run"
+0,30 * * * * /usr/bin/python /mnt/storage/anurag6/homophone_dictionary/script/PrimaryScript_ScrapeScope.py echo “Scope scrape Run"
+0 0 * * * usr/bin/python /mnt/storage/anurag6/homophone_dictionary/script/SecondaryScript.py echo "Secondary Script Run"
+0 0 * * * usr/bin/python /mnt/storage/anurag6/homophone_dictionary/script/TertiaryScript.py echo "Tertiary Script Run"

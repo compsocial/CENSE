@@ -1,0 +1,115 @@
+.textareabutton {
+	display: none;
+	position: absolute;
+	bottom: 1px;
+	right: 4px;
+    height: 30px;
+    width: 30px;
+}
+
+.clickablebutton {
+	cursor: pointer;
+}
+
+/* The Modal (background) */
+.modal {
+	/* position: fixed; /* Stay in place */
+	/* z-index: 1; /* Sit on top */
+	left: 0;
+	top: 0;
+	width: 100%; /* Full width */
+	height: 100%; /* Full height */
+	margin-top: -10px;
+	margin-bottom: 10px;
+	overflow: auto; /* Enable scroll if needed */
+	background-color: rgb(0,0,0); /* Fallback color */
+	background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Header */
+.modal-header {
+    padding: 2px 16px;
+    background-color: #f44336;
+    color: white;
+}
+
+/* style to override Sina Weibo's style */
+.h2 {
+	font-size: 21px;
+	font-weight: bold;
+}
+
+/* Modal Body */
+.modal-body {
+	padding: 2px 16px;
+	font-size: 15px;
+}
+
+/* Modal Footer */
+.modal-footer {
+    padding: 2px 16px;
+    background-color: #f44336;
+    color: white;
+}
+
+.h3 {
+	font-size: 12px;
+}
+/* Modal Content */
+.modal-content {
+	display: none; /* Hidden by default */
+    position: relative;
+    background-color: #fefefe;
+    margin: auto;
+    padding: 0;
+    /* top: 200; /**/
+    border: 1px solid #888;
+    width: 99.7%;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+/* The Close Button */
+.close {
+	color: #aaa;
+	float: right;
+	font-size: 28px;
+	font-weight: bold;
+	margin-top: -8px;
+}
+
+.close:hover,
+.close:focus {
+	color: black;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.modal-table {
+	width: 100%;
+	margin: 10px 0 20px 0;
+}
+
+.modal-table td,th {
+	width: 50%;
+}
+
+.modal-table th {
+	font-style: italic;
+    font-size: 14px;
+}
+
+.modal-table td.post {
+	font-size: 17px;
+}
+
+.highlight {
+	background-color: yellow;
+}
+
+.modal-buttons {
+	margin-bottom: 10px;
+}
+
+#textarea-suggestion-post {
+    width: 100%;
+}

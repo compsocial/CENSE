@@ -1,0 +1,12 @@
+sudo pip install pandas
+sudo pip install numpy
+sudo pip install xpinyin
+sudo pip install pymongo
+sudo pip install bson
+sudo pip install textblob
+sudo pip install jieba
+sudo pip install nltk --upgrade
+sudo pip install enchant
+sudo pip install weibo
+
+

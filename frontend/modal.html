@@ -1,0 +1,34 @@
+<!-- The Modal -->
+<div id="suggestionModal" class="modal">
+
+	<!-- Modal content -->
+	<div class="modal-content">
+		<div class="modal-header">
+			<span class="close">&times;</span>
+			<span class="h2" id="modal-header-text">Censored Keywords Detected!</span>
+		</div>
+
+		<div class="modal-body">
+			<table class="modal-table">
+				<tr>
+					<th>Your Post</th>
+					<th>Suggestion</th>
+				</tr>
+				<tr>
+					<td class="post" id="user-post">This is censored post</td>
+					<td class="post" id="suggestion-post"><textarea id="textarea-suggestion-post">This is suggestion</textarea></td>
+				</tr>
+			</table>
+			<div class="modal-buttons" align="center">
+				<button id="accept-suggestion">Accept Suggestion</button>
+				<button id="new-suggestion">Generate Another Suggestion</button>
+				<a id="cancel-suggestion" class="clickablebutton">Close</a>
+			</div>
+		</div>
+
+		<div class="modal-footer">
+			<span class="h3">&copy; <a href="https://comp.social.gatech.edu">comp.social lab</a> 2017</span>
+		</div>
+	</div>
+
+</div>
